@@ -1474,6 +1474,10 @@
 	↑↓ navigate   {key} run   esc close	↑↓ 移動   {key} 実行   esc 閉じる
 	Version {version}	バージョン {version}
 	New Document	新規ドキュメント
+	Saved	保存済み
+	Save Preset…	プリセットを保存…
+	Preset Name	プリセット名
+	No saved presets yet.	保存済みのプリセットはありません。
 	Error	エラー
 	Command	コマンド
 
@@ -2150,6 +2154,14 @@ cameraRaw	Color	カラー
 	Channels:	チャンネル:
 	Knockout	ノックアウト
 	Apply At Canvas Bounds	カンバスの境界に効果を適用
+
+# Shared screen eyedropper and text Color Picker (#1128).
+	Color Picker (Text Color)	カラーピッカー（文字色）
+	Pick screen color	画面の色を選択
+	Sample a pixel anywhere on the screen	画面上の任意のピクセルから色を取得
+	Click to pick · Esc to cancel	クリックで選択 · Escでキャンセル
+	Pick a screen pixel or press Esc to cancel	画面のピクセルを選択するか、Escでキャンセル
+	Scroll to zoom	スクロールしてズーム
 	Show/Hide All Panels	すべてのパネルを表示/非表示
 	Show/Hide Panels	パネルを表示/非表示
 	Could not open	開けませんでした
@@ -2212,6 +2224,10 @@ fontWeight	Italic	斜体
 	Pattern Stamp Tool	パターンスタンプツール
 	Pattern Stamp	パターンスタンプ
 	Impressionist	印象派
+	Rotate View	表示を回転
+	Rotate View Tool	表示回転ツール
+	Reset View	表示をリセット
+	Drag around the centre to rotate the view  ·  Shift constrains to 15°	中心の周りをドラッグして表示を回転  ·  Shift で 15° 単位
 
 # Generated labels: filter/gallery parameter names, option choices and gallery names (camelCase keys shown as words) (added 2026-10, checked against the code)
 	Accented Edges	輪郭の強調
@@ -2910,7 +2926,6 @@ fontWeight	Italic	斜体
 	Save As	名前を付けて保存
 	Save Selection	選択範囲を保存
 	Save a Copy	コピーを保存
-	Saved	保存済み
 	Settings:	設定:
 	Sharpen Amount	シャープの量
 	Sharpen Detail	シャープのディテール
@@ -3187,11 +3202,9 @@ fontWeight	Italic	斜体
 	Roman Hanging Punctuation	欧文ぶら下がり句読点
 	Rotate Auto	回転 (自動)
 	Rotate Fixed	回転 (固定)
-	Rotate View	ビューを回転
 	Ruler Units	定規の単位
 	Rulers  (⌘R)	定規  (⌘R)
 	SMPTE C	SMPTE C
-	Save Preset…	プリセットを保存…
 	Saved Multichannel	保存済みマルチチャンネル
 	Scale Horizontally	水平方向に拡大・縮小
 	Scale Vertically	垂直方向に拡大・縮小
